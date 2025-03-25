@@ -1,165 +1,206 @@
+<!DOCTYPE HTML>
+<html>
 
-<!DOCTYPE html>
-<html lang="en">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sridharsini S - Portfolio</title>
-<style>
-body {
-margin: 0;
-font-family: 'Segoe UI', sans-serif;
-background-color: #f0f8ff;
-color: #333;
-}
-header {
-background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
-color: white;
-padding: 30px 0;
-text-align: center;
-}
-header img {
-width: 150px;
-height: 150px;
-border-radius: 50%;
-margin-top: 15px;
-border: 4px solid white;
-}
-nav a {
-color: white;
-margin: 0 20px;
-text-decoration: none;
-font-weight: bold;
-font-size: 18px;
-}
-section {
-padding: 50px;
-max-width: 1000px;
-margin: auto;
-}
-#about {
-text-align: center;
-}
-#about p {
-font-size: 18px;
-}
-.projects {
-display: flex;
-flex-wrap: wrap;
-gap: 20px;
-justify-content: center;
-}
-.project-card {
-background-color: white;
-padding: 20px;
-flex: 1 1 calc(30% - 40px);
-box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-border-radius: 10px;
-transition: transform 0.3s;
-}
-.project-card:hover {
-transform: scale(1.05);
-}
-.skills {
-display: flex;
-flex-wrap: wrap;
-gap: 15px;
-justify-content: center;
-margin-top: 20px;
-}
-.skill-badge {
-background-color: #6a11cb;
-color: white;
-padding: 10px 20px;
-border-radius: 20px;
-font-weight: bold;
-font-size: 16px;
-transition: background-color 0.3s;
-}
-.skill-badge:hover {
-background-color: #2575fc;
-}
-footer {
-text-align: center;
-padding: 25px;
-background-color: #333;
-color: white;
-margin-top: 50px;
-}
-.resume-button {
-background-color: #6a11cb;
-color: white;
-padding: 10px 20px;
-text-decoration: none;
-border-radius: 10px;
-display: inline-block;
-margin-top: 20px;
-transition: background-color 0.3s;
-}
-.resume-button:hover {
-background-color: #2575fc;
-}
-</style>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #84a6e9;
+        }
+
+        header {
+            background-color: #941919;
+            color: #fff;
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add this */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+
+        /* Add styles for the round profile picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 75%; /* Create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 75px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        .section-content {
+            background-color: #fff;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+            align-self: center;
+        }
+
+        .download-button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #333;
+            color: #fff;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+    </style>
 </head>
-
 <body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="Sridharsini.jpg" alt="Your Profile Picture" class="profile-picture">
+            <h1>Sridharsini S/h1>
+            <p>I Am Undergraduate</p>
+        </div>
+    </header>
 
-<header>
-<h1>SRIDHARSINI S</h1>
-<img src="Sridharsini.jpg" alt="sridharsini Photo">
-<nav>
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#contact">Contact</a>
-</nav>
-</header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#languages">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+           
+        </ul>
+    </nav>
 
-<section id="about">
-<h2>About Me</h2>
-<p>Hello! I am <strong>SRIDHARSINI S</strong>, a passionate <strong>DATA ANALYST</strong>. I specialize in <strong>HTML, CSS, SQL, Power BI, Excel, Python</strong> and love creating impactful solutions.</p>
-</section>
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I'm <b>Sridharsini</b> a passionate DATA ANALYST.I specialise in Html,pagemaker,excel,
+            python and love creating impactful solutions.</p>
+        </div>
+    </section>
 
-<section id="skills">
-<h2>My Skills</h2>
-<div class="skills">
-<div class="skill-badge">SQL</div>
-<div class="skill-badge">Power BI</div>
-<div class="skill-badge">Python</div>
-<div class="skill-badge">Excel</div>
-<div class="skill-badge">HTML</div>
-<div class="skill-badge">CSS</div>
-</div>
-</section>
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Shri Shankarlal Sundarbai Shasun Jain College for Women-UG</p>
+            
+            
+        </div>
+    </section>
 
-<section id="projects">
-<h2>My Projects</h2>
-<div class="projects">
-<div class="project-card">
-<h3>Employee Promotion Prediction</h3>
-<p>Built a machine learning model to predict employee promotions based on performance, training, and experience. Used Python, Pandas, and Scikit-learn.</p>
-</div>
-<div class="project-card">
-<h3>Sales Dashboard (Power BI)</h3>
-<p>Created an interactive sales dashboard using Power BI to visualize key metrics and KPIs for better business decisions.</p>
-</div>
-<div class="project-card">
-<h3>Student Management System</h3>
-<p>Developed a web-based system using HTML, CSS, and SQL to manage student records and streamline administrative tasks.</p>
-</div>
-</div>
-</section>
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Ms excel </li>
+                <li>Java</li>
+                <li>Html</li>
+                <li>Pagemaker</li>
+               
+            </ul>
+        </div>
+    </section>
+    
+    <section id="Languages">
+        <div class="section-content">
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Tamil</li>
+                <li>German</li>
+                
+            </ul>
+        </div>
+    </section>
 
-<section id="contact">
-<h2>Contact</h2>
-<p>Email: sridharsini3125@gmail.com</p>
-<p>Phone: 9043668215</p>
-<a class="resume-button" href="Resume.pdf" download>Download My Resume</a>
-</section>
+    <section id="projects">
+        <div class="section-content">
+            <h2>Participated</h2>
+            <ul>
+                <li><a href="#">logo design</a></li>
+                <li><a href="#">poster making</a></li>
+                <li><a href="#">seminar about libraries,cyber security etc.</a></li>
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
 
-<footer>
-<p>&copy; 2025 Sridharsini S. All Rights Reserved.</p>
-</footer>
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="Resume.pdf" target="Resume.pdf" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
 
+    <footer>
+        <p>&copy; 2025 Sridharsini S</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
-</html>
+  </html>
